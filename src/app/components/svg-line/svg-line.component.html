@@ -1,0 +1,48 @@
+<div class="svg-container">
+  <svg viewBox='0 0 160 140'>
+    <path  [attr.d]="path" [ngStyle]="{'stroke': color , 'fill':fill }" />
+  </svg>
+  <div class="content" *ngIf="content">
+    <div class="header">
+      <h3>{{title}}</h3>
+
+    </div>
+    <div  class="middle">
+      <i class="fa fa-square"></i>
+      <span>{{square}}%</span>
+    </div>
+    <div class="bottom">
+      <div class="circle">
+        <i class="fa fa-circle"></i>
+        <span>{{circle}}%</span>
+      </div>
+      <div class="cup">
+        <i class="fa fa-trophy"></i>
+        <span>{{cup}}%</span>
+      </div>
+    </div>
+  </div>
+  <div class="content2" *ngIf="!content">
+    <div class="header2">
+      <h1>{{percent}}%</h1>
+
+    </div>
+    
+    <div class="bottom2">
+      <div class="percent">
+        
+        <span>{{percentArrow}}% <i class="fa fa-arrow-up"></i></span>
+      </div>
+      <div class="target">
+        
+        <span>Target {{percentTarget}}%</span>
+      </div>
+    </div>
+  </div>
+  <div class="chart" *ngIf="chartVisible" >
+    <app-chart [janHeight]="jan" [febHeight]="feb" [marHeight]="mar" [aprHeight]="apr"></app-chart>
+  </div>
+  <div class="desc">
+    <span>{{desc}}</span>
+  </div>
+</div>

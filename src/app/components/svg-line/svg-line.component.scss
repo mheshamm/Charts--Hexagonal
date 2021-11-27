@@ -1,0 +1,232 @@
+.svg-container{
+    width: 59vw;
+    position: relative;
+    
+
+    
+    svg{
+        margin: 20px;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        
+       
+    }
+    path {
+
+fill: white;
+
+}
+.content{
+    position: absolute;
+    width:20%;
+    top: 5%;
+    right: 25%;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .header{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -10px;
+        
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: -5px;
+        .circle , .cup {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+    .fa{
+        color: purple;
+    }
+    span {
+        color: lightgreen;
+    }
+    @media(min-width:1500px){
+        right:30%;
+        top: 5%;
+        width: 15%;
+    }
+    @media(min-width:1600px){
+        right:31%;
+        
+    }
+    @media(min-width:1650px){
+        right:32%;
+        
+    }
+    @media(min-width:1800px){
+        width: 12%;
+        right:34%;
+        
+    }
+    @media(min-width:1900px){
+        
+        right:35%;
+        
+    }
+    @media(min-width:1980px){
+        
+        right:35%;
+        
+    }
+    
+
+}
+.chart {
+    position: absolute;
+    width:100%;
+    top: 3.5%;
+    left:15%;
+    @media(min-width:1500px){
+        left:22%;
+    }
+    @media(min-width:1600px){
+        left:24%;
+    }
+    @media(min-width:1700px){
+        left:25%;
+    }
+    @media(min-width:1750px){
+        left:26%;
+    }
+    @media(min-width:1800px){
+        left:27%;
+    }
+    @media(min-width:1850px){
+        left:27.5%;
+    }
+    @media(min-width:1900px){
+        left:30%;
+    }
+    @media(min-width:1950px){
+        left:31%;
+    }
+    @media(min-width:2000px){
+        left:33%;
+    }
+}
+.desc{
+    position: absolute;
+    width:100%;
+    top: 5%;
+    left:0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content2{
+    position: absolute;
+    width:20%;
+    top: 10%;
+    right: 25%;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .header2{
+        text-align: center;
+        padding-top: 10px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color:lightgreen;
+    }
+    
+    .bottom2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: -20px;
+        .percent , .target {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+    .fa{
+        color: lightgreen;
+        font-size: 20px;    
+    }
+    .percent span{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .target span {
+        font-size: 14px;
+        font-weight: 400;
+        color:white;
+        margin-top: 5px;
+    }
+    @media(min-width:1500px){
+        right:30%;
+        top: 8%;
+        width: 15%;
+    }
+    @media(min-width:1600px){
+        right:31%;
+        
+    }
+    @media(min-width:1650px){
+        right:32%;
+        
+    }
+    @media(min-width:1800px){
+        right:33%;
+        
+    }
+}
+@media(min-width:1500px){
+    width: 63vw;
+}
+@media(min-width:1550px){
+    width: 64vw;
+}
+@media(min-width:1600px){
+    width: 65vw;
+}
+@media(min-width:1650px){
+    width: 66vw;
+}
+
+@media(min-width:1750px){
+    width: 67vw;
+}
+@media(min-width:1800px){
+    width: 67.5vw;
+}
+@media(min-width:1850px){
+    width: 68vw;
+}
+@media(min-width:1900px){
+    width: 68.5vw;
+}
+@media(min-width:1950px){
+    width: 69vw;
+}
+@media(min-width:2000px){
+    width: 70vw;
+}
+}

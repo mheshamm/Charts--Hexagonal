@@ -1,0 +1,19 @@
+<div class="chart">
+    <div class="rectangle" [ngStyle]="{'height': (janHeight/1.2)+'px'}" [ngClass]="janHeight<100 ?'red':'' ">
+        <div class="percent">{{janHeight}}%</div>
+        <div class="month">Jan</div>
+    </div>
+    <div class="rectangle" [ngStyle]="{'height': (febHeight/1.2)+'px'}" [ngClass]="febHeight<100 ?'red':'' ">
+        <div class="percent">{{febHeight}}%</div>
+        <div class="month">Feb</div>
+    </div>
+    <div class="rectangle" [ngStyle]="{'height': (marHeight/1.2)+'px'}" [ngClass]="marHeight<100 ?'red':'' ">
+        <div class="percent">{{marHeight}}%</div>
+        <div class="month">Mar</div>
+    </div>
+    <div class="rectangle" [ngStyle]="{'height': (aprHeight/1.2)+'px'}" [ngClass]="aprHeight<100 ?'red':'' ">
+        <div class="percent">{{aprHeight}}%</div>
+        <div class="month">Apr</div>
+    </div>
+    
+</div>

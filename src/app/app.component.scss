@@ -1,0 +1,184 @@
+.container{
+    max-width: 100wv;
+    position: relative;
+    display: flex;
+    padding-left:30px;
+}
+.svg-right,.svg-left{
+    width:40%;
+    
+}
+.svg-left{
+    
+
+        transform: rotateY(180deg);
+    
+}
+.svg1 {
+    position: absolute;
+    top: 10px;
+    left:1vw;
+    
+}
+.svg2{
+    position:absolute;
+    top:160px;
+    left:-5.4vw;
+   ::ng-deep app-svg-line .desc{
+    left:6.4vw !important;
+       
+   }
+   ::ng-deep app-svg-line .chart{
+    left: 13% !important;
+    @media(min-width:1500px){
+        left: 16% !important;
+    }
+    @media(min-width:1600px){
+        left: 17% !important;
+    }
+    @media(min-width:1700px){
+        left: 16.5% !important;
+    }
+    @media(min-width:1750px){
+        left: 17% !important;
+    }
+    @media(min-width:1800px){
+        left: 17% !important;
+    }
+    @media(min-width:1900px){
+        left: 18.3% !important;
+    }
+    
+    
+    
+    
+       
+   }
+   @media(min-width:1700px){
+    left:-4.5vw;
+}
+@media(min-width:1750px){
+    left:-4.2vw;
+}
+@media(min-width:1800px){
+    left:-3.9vw;
+}
+@media(min-width:1850px){
+    left:-3.6vw;
+}
+@media(min-width:1900px){
+    left:-3.3vw;
+}
+@media(min-width:1950px){
+    left:-3vw;
+}
+@media(min-width:2000px){
+    left:-2.7vw;
+}
+    
+}
+.svg3{
+    position:absolute;
+    top:310px;
+    left: 1vw;
+}
+.svg4 {
+    position: absolute;
+    top: 10px;
+    left:7vw;
+}
+.svg5{
+    position:absolute;
+    top:160px;
+    left:1vw;
+    @media(min-width:1700px){
+        left:1.9vw;
+    }
+    @media(min-width:1800px){
+        left:2vw;
+    }
+    @media(min-width:1850px){
+        left:2.2vw;
+    }
+    @media(min-width:1900px){
+        left:2.4vw;
+    }
+    @media(min-width:1950px){
+        left:2.6vw;
+    }
+    @media(min-width:2000px){
+        left:2.6vw;
+    }
+    
+}
+.svg6{
+    position:absolute;
+    top:310px;
+    left:7vw;
+}
+.svg-center{
+    width: 20%;
+    position: relative;
+    top: 160px;
+    left: -33vw;
+    @media(min-width:1500px){
+        left: -34vw;
+    }
+    @media(min-width:1600px){
+        left: -34.5vw;
+    }
+}
+.svg-left{
+    ::ng-deep app-svg-line .content {
+        transform: rotateY(180deg);
+    }
+    
+    
+    ::ng-deep  app-svg-line .chart app-chart .chart  {
+        transform: rotateY(180deg);
+        margin-left: -25%;
+        @media(min-width:1500px){
+            margin-left: -29%;
+        }
+        @media(min-width:1600px){
+            margin-left: -32.5%;
+        }
+        @media(min-width:1700px){
+            margin-left: -34%;
+        }
+        @media(min-width:1900px){
+            margin-left: -34.5%;
+        }
+        @media(min-width:2000px){
+            margin-left: -36%;
+        }
+        
+    }
+    ::ng-deep .svg5 app-svg-line .chart app-chart .chart  {
+        transform: rotateY(180deg);
+        margin-left: -15%;
+        @media(min-width:1500px){
+            margin-left: -20%;
+        }
+        @media(min-width:1600px){
+            margin-left: -23%;
+        }
+        @media(min-width:1700px){
+            margin-left: -25%;
+        }
+        @media(min-width:1800px){
+            margin-left: -26.5%;
+        }
+        
+        @media(min-width:1900px){
+            margin-left: -28%;
+        }
+        @media(min-width:2000px){
+            margin-left: -30%;
+        }
+    }
+    
+    
+    
+}
+

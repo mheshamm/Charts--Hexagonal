@@ -1,21 +1,56 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
+    <div class="svg-right">
 
-<router-outlet></router-outlet>
+        <div class="svg1">
+            
+            <app-svg-line [title]="'Engaging'" 
+            [square]="25.02" [circle]="24.04" 
+            [cup]="102.76" [jan]="104" [feb]="90" 
+            [mar]="103" [apr]="110" [desc]="'Interaction With Customers'"
+            [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L -30 48 L -30 51'"
+            ></app-svg-line>
+        </div>
+        <div class="svg2">
+           
+            <app-svg-line [title]="'Using'" [square]="47.02" [circle]="43.04" [cup]="110.76" 
+            [jan]="116" [feb]="118" [mar]="116" [apr]="118" [desc]="'Service Experince'" 
+            [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L 0 48 L 0 51'"></app-svg-line>
+        </div>
+        <div class="svg3">
+            
+            <app-svg-line [title]="'Evaluating'" [square]="16.02" [circle]="15.04" 
+            [cup]="103.76" [jan]="103" [feb]="104" [mar]="103" [apr]="104" [desc]="'Customer Action'"
+            [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L -30 48 L -30 51'"
+            ></app-svg-line>
+        </div>
+    </div>
+    <div class="svg-center">
+        <app-svg-line [chartVisible]="false" [fill]="'purple'" [content]="false" [color]="'navy'"
+        [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48'"
+            ></app-svg-line>
+    </div>
+    <div class="svg-left">
+
+        <div class="svg4">
+            <app-svg-line [title]="'NPS'" [square]="38.02" [circle]="38.04" [cup]="38.76" [color]="'lightblue'" 
+            [jan]="100" [feb]="100" [mar]="100" [apr]="100"
+            [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L -30 48 L -30 51'"
+            ></app-svg-line>
+            
+        </div>
+        <div class="svg5">
+            <app-svg-line [title]="'CSAT'" [square]="38.02" [circle]="38.04" [cup]="38.76" 
+            [color]="'lightblue'" [jan]="93" [feb]="100" [mar]="100" [apr]="100"
+            [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L 0 48 L 0 51'"
+            ></app-svg-line>
+        </div>
+        <div class="svg6">
+            <app-svg-line [title]="'CES'" [square]="38.02" [circle]="38.04" [cup]="38.76" 
+            [color]="'lightblue'" [jan]="100" [feb]="100" [mar]="100" [apr]="100"
+            [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L -30 48 L -30 51'"
+            ></app-svg-line>
+        </div>
+    </div>
+    
+</div>
+
