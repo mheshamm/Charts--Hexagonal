@@ -19,6 +19,27 @@
     top: 10px;
     left:1vw;
     
+    @media(max-width:1199px){
+        top: 40px;
+        
+    }
+    
+    @media(min-width:1400px){
+        left: 1.7vw;
+    }
+    @media(min-width:1450px){
+        left: 1.9vw;
+    }
+    @media(min-width:1600px){
+        left: 1vw;
+    }
+    @media(min-width:1650px){
+        left: .9vw;
+    }
+    @media(min-width: 1900px){
+        left: 1.2vw;
+    }
+    
 }
 .svg2{
     position:absolute;
@@ -26,34 +47,73 @@
     left:-5.4vw;
    ::ng-deep app-svg-line .desc{
     left:6.4vw !important;
+    @media(min-width:1600px) {
+        left: 5.5vw !important;
+    }
+    @media(min-width:1800px) {
+        left: 4.7vw !important;
+    }
+    @media(min-width:1950px) {
+        left: 4.3vw !important;
+    }
+    @media(min-width:2000px) {
+        left: 4vw !important;
+    }
        
    }
    ::ng-deep app-svg-line .chart{
-    left: 13% !important;
+    left: 11% !important;
+    @media(max-width:1199px){
+        margin-left: 4%;
+    }
+    @media(min-width:1300px){
+        left: 13% !important;
+    }
+    @media(min-width:1400px){
+        left: 14% !important;
+    }
     @media(min-width:1500px){
         left: 16% !important;
     }
     @media(min-width:1600px){
-        left: 17% !important;
+        left: 16% !important;
     }
+    
     @media(min-width:1700px){
         left: 16.5% !important;
     }
     @media(min-width:1750px){
-        left: 17% !important;
+        left: 16.9% !important;
     }
     @media(min-width:1800px){
         left: 17% !important;
     }
     @media(min-width:1900px){
-        left: 18.3% !important;
+        left: 18.4% !important;
     }
+    @media(min-width:2200px){
+        left: 19.5% !important;
+    }
+    
     
     
     
     
        
    }
+   
+   @media(min-width:1200px){
+    left: -6vw;
+}
+   @media(min-width:1400px){
+    left: -5vw;
+}
+@media(min-width:1400px){
+    left: -4.4vw;
+}
+@media(min-width:1600px){
+    left: -4.2vw;
+}
    @media(min-width:1700px){
     left:-4.5vw;
 }
@@ -81,16 +141,80 @@
     position:absolute;
     top:310px;
     left: 1vw;
+
+    @media(max-width:1199px){
+        top: 280px;
+    }
+    @media(min-width:1400px){
+        left: 1.7vw;
+    }
+    @media(min-width:1450px){
+        left: 1.9vw;
+    }
+    @media(min-width:1600px){
+        left: 1vw;
+    }
+    @media(min-width:1650px){
+        left: .9vw;
+    }
+    @media(min-width: 1900px){
+        left: 1.2vw;
+    }
 }
 .svg4 {
     position: absolute;
     top: 10px;
     left:7vw;
+    @media(max-width:1099px){
+        top: 40px;
+        left:16vw;
+    }
+    @media(max-width:1199px){
+        top: 40px;
+        left:16vw;
+    }
+    @media(min-width:1400px){
+        left: 7.8vw;
+    }
+    @media(min-width:1450px){
+        left: 8vw;
+    }
+    @media(min-width:1600px){
+        left: 7vw;
+    }
+    @media(min-width:1650px){
+        left: 6.8vw;
+    }
+    @media(min-width: 1900px){
+        left: 7.2vw;
+    }
 }
 .svg5{
     position:absolute;
     top:160px;
     left:1vw;
+    @media(max-width:1199px){
+        
+        left:10vw;
+    }
+    @media(min-width:1200px){
+        left: -.1vw;
+    }
+    @media(min-width:1300px){
+        left: -.2vw;
+    }
+    @media(min-width:1400px){
+        left: 1.3vw;
+    }
+    @media(min-width:1450px){
+        left: 1.9vw;
+    }
+    @media(min-width:1500px){
+        left: 1.9vw;
+    }
+    @media(min-width:1600px){
+        left: 1.2vw;
+    }
     @media(min-width:1700px){
         left:1.9vw;
     }
@@ -115,17 +239,62 @@
     position:absolute;
     top:310px;
     left:7vw;
+    @media(max-width:1199px){
+        top: 280px;
+        left:16vw;
+    }
+    @media(min-width:1400px){
+        left: 7.8vw;
+    }
+    @media(min-width:1450px){
+        left: 8vw;
+    }
+    @media(min-width:1600px){
+        left: 7vw;
+    }
+    @media(min-width:1650px){
+        left: 6.8vw;
+    }
+    @media(min-width: 1900px){
+        left: 7.2vw;
+    }
 }
 .svg-center{
     width: 20%;
     position: relative;
     top: 160px;
-    left: -33vw;
+    left: -32.5vw;
+    
+    @media(min-width:1200px){
+        left: -32.3vw;
+    }
+    @media(min-width:1300px){
+        left: -32.3vw;
+    }
+   
+    @media(min-width:1400px){
+        left: -32vw;
+    }
+    @media(min-width:1450px){
+        left: -31.5vw;
+    }
     @media(min-width:1500px){
-        left: -34vw;
+        left: -33vw;
     }
     @media(min-width:1600px){
+        left: -34vw;
+    }
+    @media(min-width:1650px){
+        left: -34.3vw;
+    }
+    @media(min-width:1700px){
+        left: -34.4vw;
+    }
+    @media(min-width:1750px){
         left: -34.5vw;
+    }
+    @media(min-width:2000px){
+        left: -34.2vw;
     }
 }
 .svg-left{
@@ -137,6 +306,18 @@
     ::ng-deep  app-svg-line .chart app-chart .chart  {
         transform: rotateY(180deg);
         margin-left: -25%;
+        @media(max-width:1199px){
+            margin-left: -4%;
+        }
+        @media(min-width:1200px){
+            margin-left: -22%;
+        }
+        @media(min-width:1300px){
+            margin-left: -26%;
+        }
+        @media(min-width:1400px){
+            margin-left: -26%;
+        }
         @media(min-width:1500px){
             margin-left: -29%;
         }
@@ -144,41 +325,85 @@
             margin-left: -32.5%;
         }
         @media(min-width:1700px){
-            margin-left: -34%;
+            margin-left: -33%;
         }
         @media(min-width:1900px){
             margin-left: -36%;
         }
         @media(min-width:2000px){
             margin-left: -36%;
+        }
+        @media(min-width:2200px){
+            margin-left: -38%;
         }
         
     }
     ::ng-deep .svg5 app-svg-line .chart app-chart .chart  {
         transform: rotateY(180deg);
         margin-left: -15%;
+        @media(max-width:1199px){
+            margin-left: 19%;
+        }
+        @media(min-width:1200px){
+            margin-left: -8%;
+        }
+        @media(min-width:1300px){
+            margin-left: -12.5%;
+        }
+        @media(min-width:1400px){
+            margin-left: -15%;
+        }
         @media(min-width:1500px){
-            margin-left: -20%;
+            margin-left: -19.5%;
         }
         @media(min-width:1600px){
-            margin-left: -23%;
+            margin-left: -23.5%;
+        }
+        @media(min-width:1650px){
+            margin-left: -24%;
         }
         @media(min-width:1700px){
-            margin-left: -25%;
+            margin-left: -25.8%;
         }
         @media(min-width:1800px){
-            margin-left: -26.5%;
+            margin-left: -26%;
         }
         
         @media(min-width:1900px){
             margin-left: -29.5%;
         }
         @media(min-width:2000px){
-            margin-left: -32%;
+            margin-left: -29.5%;
+        }
+        @media(min-width:2200px){
+            margin-left: -31.5%;
         }
     }
     
     
     
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+    background-color: lightgreen;
+    
+    height: 40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        width: 100%;
+        i{
+            color: red;
+        }
+    }
+
 }
 

@@ -46,11 +46,13 @@
         </div>
         <div class="svg6">
             <app-svg-line [title]="'CES'" [square]="38.02" [circle]="38.04" [cup]="38.76" 
-            [color]="'lightblue'" [jan]="100" [feb]="100" [mar]="100" [apr]="100"
+            [color]="'lightblue'" [jan]="100" [feb]="89" [mar]="100" [apr]="110"
             [path]="'M 86.4 48 L 86.4 19.2 L 115.2 0 L 144 19.2 L 144 48 L 115.2 67.2 L 86.4 48 L -30 48 L -30 51'"
             ></app-svg-line>
         </div>
     </div>
     
 </div>
-
+<div class="footer" >
+    <span [@movingText]="state" (@movingText.done)="moveEnd()" >Made With <i class="fa fa-heart"></i> By Mohamed Hesham</span>
+</div>
